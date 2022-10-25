@@ -1,0 +1,30 @@
+:root {
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#page-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 7px;
+    padding-bottom: 12px;
+
+}
+#h1_ph {
+    margin: 0px;
+    padding-left: 30%;
+    width: fit-content;
+    padding-right: 10%;
+
+}
