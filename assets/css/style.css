@@ -78,3 +78,45 @@ body {
     top: -40px;
     left: -200px;
 }
+
+.project {
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+
+   }
+ 
+   #project1 {
+    margin-left: 20%;
+    width: 80%;
+ 
+    height: 40%;
+       background-image: url(../images/green-neon-night-photography-night-time-thumbnail.jpg);
+   }
+   
+#project2 {
+    padding-left: 300px;
+    width: 40%;
+    /* height: 40%; */
+    background-image: url(../images/green-neon-night-photography-night-time-thumbnail.jpg);
+    }
+#project3 {
+    padding-left: 300px;
+    width: 40%;
+    /* height: 40%; */
+    background-image: url(../images/green-neon-night-photography-night-time-thumbnail.jpg);
+}
+
+#project4 {
+    padding-left: 300px;
+    width: 40%;
+    /* height: 40%; */
+    background-image: url(../images/outrun-vaporwave-hd-wallpaper-thumb.jpg);
+}
+        #project5 {
+            padding-left: 300px;
+            width: 40%;
+            /* height: 40%; */
+            background-image: url(../images/green-neon-night-photography-night-time-thumbnail.jpg);
+        }
