@@ -54,6 +54,7 @@ body {
     display: flex;
     position: relative;
     flex-wrap: wrap;
+   
 }
 
 
@@ -67,6 +68,8 @@ body {
     font-size: 280%;
     position: absolute;
     text-align: end;
+    padding:20px;
+    border-right: solid 10px blue;
 }
 
 
