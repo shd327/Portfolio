@@ -93,34 +93,35 @@ body {
 
 width: 800px;
 height: 400px;
-margin-left: 30%;
+margin-left: 20%;
 
-       background-image: url(../images/outrun-vaporwave-hd-wallpaper-thumb.jpg);
+       background-image: url(../images/elephant.jpg);
    }
    
 #project2 {
 margin-left: 5%;
     width: 600px;
     height: 400px;
-    background-image: url(../images/outrun-vaporwave-hd-wallpaper-thumb.jpg);
+    background-image: url(../images/elephant.jpg);
+    
     }
 #project3 {
 margin-left: 5%;
     width: 600px;
     height: 400px;
-    background-image: url(../images/outrun-vaporwave-hd-wallpaper-thumb.jpg);
+background-image: url(../images/elephant.jpg);
 }
 
 #project4 {
 margin-left: 5%;
     width: 600px;
     height: 400px;
-    background-image: url(../images/outrun-vaporwave-hd-wallpaper-thumb.jpg);
+    background-image: url(../images/elephant.jpg);
 }
 #project5 {
 margin-left: 5%;
 
         width: 600px;
             height: 400px;
-background-image: url(../images/outrun-vaporwave-hd-wallpaper-thumb.jpg);
+background-image: url(../images/elephant.jpg);
 }
