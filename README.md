@@ -15,7 +15,7 @@ This repository has a deployed application used to display a professional portfo
 <br/>
 
 ## Webpage
-![](/img/Portfolio_webpage.png)
+![](/img/Portfolio_Webpage.png)
 
 
 ## Installation
