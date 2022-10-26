@@ -38,8 +38,8 @@ This project is free use
 
 ## Links
 
-[Live Link](https://github.com/shd327/Portfolio)
+[Live Link](https://shd327.github.io/Portfolio/)
 
-[Github Link]()
+[Github Link](https://github.com/shd327/Portfolio)
  
 
