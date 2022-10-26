@@ -5,7 +5,6 @@ This repository has a deployed application used to display a professional portfo
 
 ## Table of Content
 - [Webpage](#webpage)
-- [Links](#links)
 - [Installation](#installation)
 - [Credits](#credits)
 - [Contact_Information](#contact_infomration)
@@ -15,7 +14,7 @@ This repository has a deployed application used to display a professional portfo
 <br/>
 
 ## Webpage
-![](/img/Portfolio_Webpage.png)
+![](/assets/img/Portfolio_Webpage.png)
 
 
 ## Installation
