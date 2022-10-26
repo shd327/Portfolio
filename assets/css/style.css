@@ -45,10 +45,10 @@ padding-right: 20px;
 
 #navbar li {
     display: inline-block;
-    padding-left: 11px;
-    padding-right: 50px;
-    padding-bottom: 10px;
-    margin-left: 5px;
+    padding-left: 12px;
+    padding-right: 51px;
+    padding-bottom: 12px;
+    margin-left: 6px;
   
 }
 
@@ -95,7 +95,7 @@ padding-right: 20px;
     padding-top: 150px;
 
    }
- 
+ /* background styling for images */
    #project1 {
 /* width:100%; */
 
@@ -105,7 +105,7 @@ margin-left: 20%;
 
        background-image: url(../images/elephant.jpg);
    }
-   
+   /* background styling for images */
 #project2 {
 margin-left: 5%;
     width: 600px;
@@ -113,19 +113,21 @@ margin-left: 5%;
     background-image: url(../images/elephant.jpg);
     
     }
+        /* background styling for images */
 #project3 {
 margin-left: 5%;
     width: 600px;
     height: 400px;
 background-image: url(../images/elephant.jpg);
 }
-
+/* background styling for images */
 #project4 {
 margin-left: 5%;
     width: 600px;
     height: 400px;
     background-image: url(../images/elephant.jpg);
 }
+/* background styling for images */
 #project5 {
 margin-left: 5%;
 
@@ -133,36 +135,46 @@ margin-left: 5%;
             height: 400px;
 background-image: url(../images/elephant.jpg);
 }
-
+/* contact me ul styling */
 #contact-me ul {
     padding-top: 4%;
     padding-left: 4%;
     list-style: none;
     text-decoration: none;
 }
+/* contact me li styling */
 #contact-me li {
     
     display: inline;
     margin: 60px;
 }
-
+/* hover affects */
 #navbar a:hover {
     background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
 }
-
+/* hover affects */
 #contact-me a:hover {
     background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
 }
-
+/* hover affects */
 #work div:hover {
     opacity: 50%;
 }
+/* footer positioning */
 footer{
     bottom: 2%;
 }
+/* caption postioning */
+.caption {
+    position: absolute;
+    font-size: 150%;
+    left:25%;
+    color:  linear-gradient(135deg, #52E5E7 10%, #130CB7 100%);
+background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
 
 
-/*making webpage responsive by changing variables to make the elements fit better under certain widths*/
+/*media queries*/
 @media only screen and (max-width:768px) {
     body {
         display: flex;
@@ -171,14 +183,25 @@ footer{
     }
 }
 
-/*making webpage responsive by changing variables to make the elements fit better under certain widths*/
+/*media queries*/
 @media only screen and (max-width:992px) {
     #page-header h1 {
         font-size: 200%;
     }
 
-    #navbar a {
-        font-size: 100%;
+    #navbar li{
+        display: flex;
+        flex-direction:column ;
+    
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        line-height: 50px;
+    }
+    .caption{
+        width: 50%;
+        font-size: 50%;
     }
 
   
