@@ -130,3 +130,9 @@ background-image: url(../images/elephant.jpg);
     list-style: none;
     text-decoration: none;
 }
+#contact-me li {
+    display: inline;
+    
+    margin: 60px;
+}
+
