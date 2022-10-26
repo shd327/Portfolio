@@ -10,9 +10,18 @@
 body {
     margin: 0px;
     padding: 0px;
+background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+}
+#hero{
+/* display: flex;
+justify-content: center; */
+}
+#hero img{
+padding-left: 20px;
+padding-right: 20px;
 
 }
-
 #page-header {
     display: flex;
     align-items: center;
@@ -132,7 +141,6 @@ background-image: url(../images/elephant.jpg);
 }
 #contact-me li {
     display: inline;
-    
     margin: 60px;
 }
 
