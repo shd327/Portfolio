@@ -70,7 +70,7 @@ padding-right: 20px;
 .container div {
 
     margin: 10px;
-    background-color:brown ;
+    
 }
 
 
@@ -154,6 +154,32 @@ background-image: url(../images/elephant.jpg);
     background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
 }
 
+#work div:hover {
+    opacity: 50%;
+}
 footer{
     bottom: 2%;
+}
+
+
+/*making webpage responsive by changing variables to make the elements fit better under certain widths*/
+@media only screen and (max-width:768px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
+
+/*making webpage responsive by changing variables to make the elements fit better under certain widths*/
+@media only screen and (max-width:992px) {
+    #page-header h1 {
+        font-size: 200%;
+    }
+
+    #navbar a {
+        font-size: 100%;
+    }
+
+  
 }
